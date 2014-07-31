@@ -1,0 +1,7 @@
+<oml:data_set_description xmlns:oml="http://openml.org/openml">
+  <oml:name>anneal</oml:name>
+  <oml:version>1</oml:version>
+	<oml:description>here some textual description</oml:description>
+  <oml:format>ARFF</oml:format>
+  <oml:licence>public domain</oml:licence>
+</oml:data_set_description>
