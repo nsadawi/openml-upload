@@ -7,7 +7,7 @@ $URL = 'http://openml.liacs.nl/api/?f=openml.data.upload';
 
 $description_file = 'dataset.xml';
 $dataset_file = 'cpu.arff';
-$session_hash = '0H9P4Z95IA6Z9UNX55IGDAYRTKZNSZZI6YY1OYXW';
+$session_hash = 'MFD6VIF6H351ABO5RHNRZKQ4DXMKE5SQBWMX5SUC';
 
 if( file_exists( $description_file ) === false ||
     file_exists( $dataset_file ) === false ) {

@@ -1,0 +1,2074 @@
+<oml:run xmlns:oml="http://openml.org/openml">
+  <oml:task_id>4262</oml:task_id>
+  <oml:implementation_id>523</oml:implementation_id>
+  <oml:setup_string>weka.classifiers.meta.Bagging -- -P 100 -S 1 -num-slots 1 -I 20 -W weka.classifiers.trees.J48 -- -C 0.25 -M 2</oml:setup_string>
+  <oml:parameter_setting>
+    <oml:name>I</oml:name>
+    <oml:value>20</oml:value>
+    <oml:component>523</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>P</oml:name>
+    <oml:value>100</oml:value>
+    <oml:component>523</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>S</oml:name>
+    <oml:value>1</oml:value>
+    <oml:component>523</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>C</oml:name>
+    <oml:value>0.25</oml:value>
+    <oml:component>365</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>M</oml:name>
+    <oml:value>2</oml:value>
+    <oml:component>365</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>W</oml:name>
+    <oml:value>weka.classifiers.trees.J48</oml:value>
+    <oml:component>523</oml:component>
+  </oml:parameter_setting>
+  <oml:parameter_setting>
+    <oml:name>num-slots</oml:name>
+    <oml:value>1</oml:value>
+    <oml:component>523</oml:component>
+  </oml:parameter_setting>
+  <oml:input_data/>
+  <oml:output_data>
+    <oml:evaluation repeat="0" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1755240560</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.168</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1798259400</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1841359632</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.647059</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1841359632</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.591065</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.135</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1927168504</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.701754</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.197</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1970187896</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.195</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2013207344</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.824742</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.136</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2013207344</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.117</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2056227088</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.763889</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.128</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2099246432</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.643357</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.126</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="0" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2142266480</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.132</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2142266480</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.765517</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.124</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2185285320</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.101</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2228304160</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.582456</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.123</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2271323000</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.821053</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2271323000</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.643357</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2314342624</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.123</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2357361464</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.588235</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2400380448</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.588235</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2400380448</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.125</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="1" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2443399552</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.760563</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.123</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2486420560</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.401408</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.114</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2486420560</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.117</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2529440408</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2572459248</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.8223</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2615478656</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.645833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2615478656</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.585366</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.109</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2658497496</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.117</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2701516496</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.116</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2744535336</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="2" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2744535336</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.112</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2787554216</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2830573504</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.107</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2830573504</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.763889</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.116</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2873592344</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.940767</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.970588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2916613144</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.643357</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.122</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2948211024</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881944</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>854942024</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.645833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.139</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>854942024</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.8223</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>897628328</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.123</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="3" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>940314632</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.647059</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>983001040</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.109</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>983001040</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1025687496</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.109</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1090180648</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.824742</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1132866952</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1132866952</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.109</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1175553240</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1218239544</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.8223</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1260925848</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.116</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="4" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1260925848</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1303612192</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.763889</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1346298648</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.106</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1388984952</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.701754</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.111</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1388984952</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881944</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1431671240</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1474357576</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.643357</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.117</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1517044272</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.108</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1517044272</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1559730576</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.107</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="5" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1602416880</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.940767</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.102</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.970588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1602416880</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1645103240</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.106</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1687789544</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.103</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1687789544</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.101</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1730475848</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.760563</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.1</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1773162152</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.101</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1773162152</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.108</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1815849024</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.106</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1858535312</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.588235</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.109</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="6" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1901221616</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.582456</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1901221616</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.527778</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1943907920</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.940767</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.970588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>1986594264</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2029280760</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.763889</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2029280760</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2071967112</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.762238</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2114654144</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.131</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2157340648</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.529412</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.113</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2157340648</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="7" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2200027312</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2242713616</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.970588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2285527392</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.647059</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.114</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2285527392</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.122</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2328213680</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.588235</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2370899976</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.701754</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.117</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2370899976</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.588235</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.111</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2413586280</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.115</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2456272584</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.881119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.112</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.941176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2498958888</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.643357</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.116</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="8" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="0">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2498958888</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="0">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.705882</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="0">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.12</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="0">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="1">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2541645176</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="1">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.585366</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="1">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.126</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="1">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="2">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2584331712</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="2">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.576512</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="2">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.114</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="2">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="3">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2627018480</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="3">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.703833</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="3">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.124</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="3">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.852941</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="4">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2627018480</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="4">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.582456</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="4">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="4">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="5">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2669704776</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="5">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.940767</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="5">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="5">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.970588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="6">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2712391080</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="6">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.591065</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="6">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.119</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="6">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.794118</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="7">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2755077400</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="7">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="7">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.111</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="7">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="8">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2755077400</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="8">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.764706</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="8">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="8">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.882353</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="9">
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2797763912</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="9">
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.823529</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="9">
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.121</oml:value>
+    </oml:evaluation>
+    <oml:evaluation repeat="9" fold="9">
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.911765</oml:value>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>build_memory</oml:name>
+      <oml:implementation>openml.evaluation.build_memory(1.0)</oml:implementation>
+      <oml:value>2030439260.56</oml:value>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>build_cpu_time</oml:name>
+      <oml:implementation>openml.evaluation.build_cpu_time(1.0)</oml:implementation>
+      <oml:value>0.11818</oml:value>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>kappa</oml:name>
+      <oml:implementation>openml.evaluation.kappa(1.0)</oml:implementation>
+      <oml:value>0.739843</oml:value>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>predictive_accuracy</oml:name>
+      <oml:implementation>openml.evaluation.predictive_accuracy(1.0)</oml:implementation>
+      <oml:value>0.870588</oml:value>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>os_information</oml:name>
+      <oml:implementation>openml.userdefined.os_information(1.0)</oml:implementation>
+      <oml:array_data>[Sun Microsystems Inc., 1.6.0_20, amd64, Linux, 2.6.35.14-106.fc14.x86_64]</oml:array_data>
+    </oml:evaluation>
+    <oml:evaluation>
+      <oml:name>scimark_benchmark</oml:name>
+      <oml:implementation>openml.userdefined.scimark_benchmark(1.0)</oml:implementation>
+      <oml:value>936.613656</oml:value>
+      <oml:array_data>[553.0249257258525, 997.1306614464737, 475.107003774767, 904.5686674515777, 1753.2370197795062]</oml:array_data>
+    </oml:evaluation>
+  </oml:output_data>
+</oml:run>
