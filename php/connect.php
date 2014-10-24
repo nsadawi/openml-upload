@@ -15,8 +15,8 @@ curl_setopt_array($curl, array(
     CURLOPT_USERAGENT => 'Codular Sample cURL Request',
     CURLOPT_POST => 1,
     CURLOPT_POSTFIELDS => array(
-        username => 'username',
-        password => md5('password')
+        username => 'n.sadawi@gmail.com',
+        password => md5('libya2011')
     )
 ));
 // Send the request & save response to $resp
