@@ -1,0 +1,15 @@
+@relation meta-qsar-test
+
+@attribute f1 numeric
+@attribute f2 numeric
+@attribute f3 numeric
+@attribute f4 numeric
+@attribute f5 numeric
+@attribute Class numeric
+
+@data
+1,0,0,1,1,3.4
+0,1,1,0,1,2.8
+1,1,0,1,1,3.1
+0,0,1,0,0,2.75
+0,1,1,1,0,3.1
